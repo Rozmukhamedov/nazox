@@ -1,0 +1,98 @@
+.manager-flex {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.manager-flex .form-input .form-control {
+  padding: 0.47rem 0.75rem;
+  font-size: 0.9rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #505d69;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  appearance: none;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  margin-left: 0;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+
+.manager-flex.flex-end {
+  display: flex;
+  justify-content: end;
+  margin-top: 30px;
+}
+
+.manager-flex p {
+  text-transform: capitalize;
+}
+
+/* ///////////////////////////////////////////////////////// */
+
+.manager_info {
+  padding: 20px;
+}
+
+.manager_info .manager_info-flex {
+  display: flex;
+  flex-direction: row;
+}
+
+.manager_info .manager_info-flex {
+  display: flex;
+  flex-direction: row;
+}
+
+.manager_info .manager_info-flex .manager_info-left {
+  padding: 24px;
+  border: 1px solid #eff2f7;
+  margin-right: 60px;
+}
+
+.manager_info .manager_info-flex .manager_info-left img {
+  width: 300px;
+  height: 280px;
+}
+
+.manager_info .manager_info-flex .manager_info-right {
+  margin-top: 30px;
+}
+
+.manager_info .manager_info-flex .manager_info-right h4 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  text-transform: none;
+  font-weight: 500;
+}
+
+.manager_info .manager_info-table {
+  border: 1px solid #eff2f7;
+  margin: 20px 0;
+  padding: 10px 20px;
+}
+
+.manager_info .manager_info-table .tr {
+  border-bottom: 1px solid #eff2f7;
+  height: 50px;
+}
+
+.manager_info .manager_info-table .tr .td {
+  border-bottom: none;
+  width: 35%;
+}
+
+.manager_info .manager_info-table tr:last-child {
+  border-bottom: none;
+}
+
+/* ///////////////////////// Popup /////////////////////////// */
+
+.edit_permission {
+  display: flex;
+  flex-direction: row;
+}

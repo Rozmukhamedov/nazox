@@ -1,0 +1,74 @@
+[
+  {
+    "id": 10,
+    "customer": "client client",
+    "restaurant": "Milliy taomlar",
+    "requested": "24 января 2022 г. 8:23",
+    "delivery": "---",
+    "status": "delivered"
+  },
+  {
+    "id": 11,
+    "customer": "client client3",
+    "restaurant": "Milliy",
+    "requested": "24 января 2022 г. 8:23",
+    "delivery": "---",
+    "status": "ready shipment"
+  },
+  {
+    "id": 16,
+    "customer": "client client2",
+    "restaurant": "taomlar",
+    "requested": "24 января 2022 г. 8:23",
+    "delivery": "---",
+    "status": "requested"
+  },
+  {
+    "id": 12,
+    "customer": "client client1",
+    "restaurant": "pizza",
+    "requested": "24 января 2022 г. 8:23",
+    "delivery": "---",
+    "status": "delivered"
+  },
+  {
+    "id": 20,
+    "customer": "client client1",
+    "restaurant": "pizza",
+    "requested": "24 января 2022 г. 8:23",
+    "delivery": "---",
+    "status": "delivered"
+  },
+  {
+    "id": 50,
+    "customer": "client client1",
+    "restaurant": "pizza",
+    "requested": "24 января 2022 г. 8:23",
+    "delivery": "---",
+    "status": "delivered"
+  },
+  {
+    "id": 66,
+    "customer": "client client1",
+    "restaurant": "pizza",
+    "requested": "24 января 2022 г. 8:23",
+    "delivery": "---",
+    "status": "requested"
+  },
+  {
+    "id": 18,
+    "customer": "client client1",
+    "restaurant": "pizza",
+    "requested": "24 января 2022 г. 8:23",
+    "delivery": "---",
+    "status": "delivered"
+  },
+  {
+    "id": 33,
+    "customer": "client client1",
+    "restaurant": "pizza",
+    "requested": "24 января 2022 г. 8:23",
+    "delivery": "---",
+    "status": "requested"
+  }
+]

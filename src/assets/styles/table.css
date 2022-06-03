@@ -1,0 +1,94 @@
+table {
+  width: 100%;
+}
+
+th {
+  text-align: left;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 22.5px;
+  padding: 12px;
+  text-transform: capitalize;
+}
+
+td {
+  border-bottom: 1px solid #eff2f7;
+  font-size: 15px;
+  padding: 12px;
+  text-transform: capitalize;
+}
+table tr a {
+  color: #505d69;
+}
+
+tbody {
+  border-top: 1px solid #eff2f7;
+}
+
+.id {
+  text-align: right;
+}
+
+.delivered {
+  display: inline-block;
+  font-size: 12px;
+  color: #1cbb8c;
+  background-color: rgba(28, 187, 140, 0.18);
+  padding: 0.25em 0.4em;
+  font-weight: 500;
+  line-height: 1;
+  border-radius: 0.25rem;
+}
+
+.ready.shipment {
+  display: inline-block;
+  font-size: 12px;
+  color: #fcb92c;
+  background-color: rgba(252, 185, 44, 0.18);
+  padding: 0.25em 0.4em;
+  font-weight: 500;
+  line-height: 1;
+  border-radius: 0.25rem;
+}
+
+.requested {
+  display: inline-block;
+  font-size: 12px;
+  color: #74788d;
+  background-color: rgba(116, 120, 141, 0.18);
+  padding: 0.25em 0.4em;
+  font-weight: 500;
+  line-height: 1;
+  border-radius: 0.25rem;
+}
+
+.delete {
+  font-weight: 500;
+  color: rgb(255, 255, 255);
+  padding: 0.5rem 0.75rem;
+  border: 1px solid red;
+  border-radius: 4px;
+  background: red;
+}
+
+.edit {
+  font-weight: 500;
+  color: rgb(255, 255, 255);
+  padding: 0.5rem 0.75rem;
+  border: 1px solid orange;
+  border-radius: 4px;
+  background: orange;
+}
+
+.table .image img {
+  width: 100px;
+  height: 100px;
+}
+
+.description_text {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}

@@ -1,0 +1,47 @@
+h4 {
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #343a40;
+}
+input {
+  padding: 0.25rem 0.5rem;
+  font-size: 0.7875rem;
+  border-radius: 0.2rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #505d69;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  margin-left: 0.5em;
+}
+
+.modal {
+  background: #fff;
+  padding: 20px;
+  width: 500px;
+  height: auto;
+}
+
+.modal .category-edit .form-control {
+  padding: 0.47rem 0.75rem;
+  font-size: 0.9rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #505d69;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  appearance: none;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  margin-left: 0;
+  margin-bottom: 10px;
+}
+
+.modal .category-edit .flex-end {
+  display: flex;
+  justify-content: end;
+  margin-top: 30px;
+}

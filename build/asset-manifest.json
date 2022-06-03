@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.11043264.css",
+    "main.js": "/static/js/main.970f5ee5.js",
+    "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
+    "static/media/error-img.png": "/static/media/error-img.97de789a2d074ad68073.png",
+    "static/media/defaultimage.jpg": "/static/media/defaultimage.042eb33250ef1f00c912.jpg",
+    "static/media/logoRestaurant.png": "/static/media/logoRestaurant.c2932fd26cf3ff5f43dd.png",
+    "index.html": "/index.html",
+    "static/media/getFetch.cjs": "/static/media/getFetch.c780682470504fffbd04.cjs",
+    "main.11043264.css.map": "/static/css/main.11043264.css.map",
+    "main.970f5ee5.js.map": "/static/js/main.970f5ee5.js.map",
+    "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.11043264.css",
+    "static/js/main.970f5ee5.js"
+  ]
+}

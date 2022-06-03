@@ -1,0 +1,50 @@
+.card {
+  width: 300px;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 8%);
+  text-align: center;
+  background: #fff;
+  padding: 20px;
+  margin: 0 20px 20px 20px;
+}
+
+.card img {
+  width: 100px;
+  height: auto;
+  margin: 10px 0;
+}
+
+.card h4 {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.2;
+  color: #343a40;
+}
+
+.card p {
+  font-size: 12px;
+}
+
+.card hr {
+  margin: 1rem 0;
+  color: rgba(0, 0, 0, 0.1);
+  background-color: currentColor;
+  opacity: 0.7;
+}
+
+.card .card-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.card .card-flex .card-item {
+  margin: 0 20px;
+}
+
+.card .card-flex .card-item h5 {
+  font-size: 18px;
+}
+
+.card .card-flex .card-item span {
+  font-size: 22px;
+}

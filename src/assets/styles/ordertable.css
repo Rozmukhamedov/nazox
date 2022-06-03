@@ -1,0 +1,40 @@
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  padding: 8px;
+}
+
+.table {
+  margin-top: 20px;
+}
+
+.table .bg-light {
+  background-color: #eff2f7;
+  border-radius: 4px;
+}
+
+.table img {
+  height: 6.5rem;
+  width: 8.5rem;
+}
+
+.table .td {
+  text-align: right;
+}
+
+.text-center {
+  text-align: center;
+  width: 18%;
+}
+
+.order_table_infomation tbody {
+  background-color: #eff2f7;
+}
+.order_table_infomation tbody tr td {
+  width: 50%;
+  text-align: end;
+}

@@ -1,0 +1,23 @@
+.main {
+  margin-left: 271px;
+  transition: margin-left 0.2s ease-in;
+  box-sizing: border-box;
+}
+
+.main.inactive {
+  margin-left: 80px;
+}
+
+.aside {
+  position: relative;
+  margin: 25px 15px;
+  background: #fff;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 8%);
+  border-radius: 4px;
+}
+
+.aside-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}

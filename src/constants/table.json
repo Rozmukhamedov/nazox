@@ -1,0 +1,46 @@
+[
+  {
+    "delivered": {
+      "id": "Id",
+      "customer": "Customer",
+      "created_at": "Created",
+      "pree_order_time": "Pree Order Time",
+      "delivery_type": "Delivery time",
+      "items": "items",
+      "order_status": "Status"
+    },
+    "category": {
+      "id": "Id",
+      "name": "Name",
+      "items": "items"
+    },
+    "order_detail": {
+      "product": "product",
+      "product_description": "product description",
+      "price": "price",
+      "quantity": "quantity",
+      "total": "total"
+    },
+    "filials": {
+      "id": "Id",
+      "name": "Name",
+      "origin": "street"
+    },
+    "managers": {
+      "id": "Id",
+      "username": "user name",
+      "password": "pasword",
+      "first_name": "first name",
+      "last_name": "last name",
+      "phone_number": "phone number"
+    },
+    "products": {
+      "id": "Id",
+      "image": "Image",
+      "on_sale": "On Sale",
+      "product_name": "Name",
+      "product_description": "Description",
+      "default_price": "Price"
+    }
+  }
+]

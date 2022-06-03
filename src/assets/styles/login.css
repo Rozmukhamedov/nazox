@@ -1,0 +1,110 @@
+.login {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+}
+
+.login .login-left {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: #fff;
+}
+.login .login-left img {
+  height: 40px;
+}
+
+.login .login-left .logoText {
+  font-size: 24px;
+  margin-left: 10px;
+}
+
+.login .login-left h4 {
+  font-size: 18px;
+  color: #343a40;
+  margin-top: 20px;
+  margin-bottom: 6px;
+}
+
+.login .login-left p {
+  margin-bottom: 20px;
+}
+
+.login-left .auth-form-group-custom {
+  position: relative;
+  text-align: start;
+  margin: 20px 0;
+}
+
+.login-left .auth-form-group-custom .auti-custom-input-icon {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 19px;
+  font-size: 24px;
+  color: #5664d2;
+}
+
+.login-left .auth-form-group-custom label {
+  position: absolute;
+  top: 9px;
+  left: 60px;
+}
+
+.login-left .auth-form-group-custom .form-control {
+  height: 40px;
+  padding-top: 28px;
+  padding-left: 60px;
+  display: block;
+  width: 77%;
+  font-size: 0.9rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #505d69;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: 0.25rem;
+  -webkit-transition: border-color 0.15s ease-in-out,
+    -webkit-box-shadow 0.15s ease-in-out;
+  transition: border-color 0.15s ease-in-out,
+    -webkit-box-shadow 0.15s ease-in-out;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out,
+    -webkit-box-shadow 0.15s ease-in-out;
+}
+
+.login-left button {
+  min-width: 110px;
+  color: #fff;
+  background-color: #5664d2;
+  border-color: #5664d2;
+  border: none;
+  padding: 10px;
+  border-radius: 0.25rem;
+}
+
+.login-left .forgot-password {
+  margin-top: 10px;
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: #505d69;
+}
+
+.login-left .forgot-password .mdlock {
+  margin-bottom: -2px;
+}
+
+.login .login-right {
+  width: 70%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+}

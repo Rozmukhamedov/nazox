@@ -1,0 +1,148 @@
+.side-menu {
+  position: fixed;
+  background: #252b3b;
+  width: 270px;
+  height: 100%;
+  box-sizing: border-box;
+  padding: 20px;
+  transition: width 0.2s ease-in;
+}
+
+.side-menu.inactive {
+  width: 80px;
+}
+
+.side-menu .top-section {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.side-menu .top-section.mobile {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.side-menu .top-section .logo {
+  width: 120px;
+  height: 40px;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.side-menu .top-section .logo-mobile {
+  text-align: center;
+  height: 40px;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.side-menu .top-section .logo {
+  width: 100%;
+}
+
+.side-menu .top-section .logo img {
+  max-width: 18%;
+  max-height: 70%;
+}
+
+.side-menu .top-section .logo p {
+  margin: auto 10px;
+}
+
+.side-menu .search-controller {
+  color: #fff;
+  position: relative;
+}
+
+.side-menu .main-menu .menu-item {
+  padding: 10px 0 5px 0;
+  text-decoration: none;
+  font-size: 15px;
+  display: block;
+  font-weight: 600;
+  cursor: pointer;
+  color: #d7e4ec;
+  margin: 10px 0;
+}
+
+.side-menu .main-menu {
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.side-menu .main-menu li {
+  display: block;
+  width: 100%;
+}
+
+.side-menu .main-menu .menu-item span {
+  position: absolute;
+  display: inline-block;
+  opacity: 1;
+  transition: opacity 0.2s ease-in;
+  margin-left: 10px;
+  color: #8590a5;
+}
+
+.side-menu.inactive .main-menu .menu-item span {
+  opacity: 0;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+}
+
+.side-menu .main-menu .menu-item .menu-icon {
+  display: inline-block;
+  transition: all 0.4s;
+  font-family: Inter, sans-serif;
+  font-weight: 500;
+  min-width: 1.5rem;
+  padding-bottom: 0.125em;
+  font-size: 1.4rem;
+  line-height: 1.40625rem;
+  vertical-align: middle;
+  color: #505d69;
+  -webkit-transition: all 0.4s;
+  opacity: 0.75;
+}
+
+::-webkit-scrollbar {
+  width: 3px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+  display: none;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #333;
+  border-radius: 10px;
+  display: none;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #333;
+  display: block;
+}
+
+.sub-link {
+  display: block;
+  padding: 0.625rem 1.5rem;
+  color: #74788d;
+  position: relative;
+  font-size: 13.3px;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+  font-family: Inter, sans-serif;
+  font-weight: 500;
+}

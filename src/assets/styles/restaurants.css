@@ -1,0 +1,60 @@
+.restaurants h1 {
+  margin: 20px;
+}
+.restaurants .restaurants-flex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.restaurants .restaurants-card-flex {
+  display: flex;
+  flex-direction: row;
+}
+
+.restaurant .restaurant-flex {
+  display: flex;
+  flex-direction: row;
+}
+
+.restaurant .restaurant-flex .restaurant-left {
+  padding: 24px;
+  border: 1px solid #eff2f7;
+  margin-right: 60px;
+}
+
+.restaurant .restaurant-flex .restaurant-left img {
+  width: 300px;
+  height: 280px;
+}
+
+.restaurant .restaurant-flex .restaurant-right {
+  margin-top: 30px;
+}
+
+.restaurant .restaurant-flex .restaurant-right h4 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  text-transform: none;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+.restaurant .restaurant-table {
+  margin: 20px 0;
+  padding: 10px 20px;
+}
+
+.restaurant .restaurant-table .tr {
+  border-bottom: 1px solid #eff2f7;
+  height: 50px;
+}
+
+.restaurant .restaurant-table .tr .td {
+  border-bottom: none;
+  width: 35%;
+}
+
+.restaurant .restaurant-table tr:last-child {
+  border-bottom: none;
+}

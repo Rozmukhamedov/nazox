@@ -1,0 +1,53 @@
+.product_create_flex {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.product_create_flex .form-input {
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+
+.product_create_flex .form-input .form-control {
+  padding: 0.47rem 0.75rem;
+  font-size: 0.9rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #505d69;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  appearance: none;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  margin-left: 0;
+}
+
+.product_create_flex.flex-end {
+  display: flex;
+  justify-content: end;
+  margin-top: 30px;
+}
+
+.product_create_flex .form-input p {
+  text-transform: capitalize;
+}
+
+.product_create_flex .product_checkbox {
+  margin: 40px 2px 0 2px;
+}
+
+.product-box {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.product-box h5 {
+  font-size: 20px;
+}
+
+.product-box .product_create_flex {
+  margin: 0;
+}
